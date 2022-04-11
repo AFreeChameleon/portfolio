@@ -1,0 +1,17 @@
+:root {
+    --chameleo-green: #00AF55;
+}
+
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 1366px) {
+    @import url('/css/index-laptop.css');
+}
+
+@media (min-width: 1367px) {
+    @import url('/css/index-reg.css');
+}
