@@ -278,6 +278,10 @@
     column-gap: 50px;
 }
 
+.recent-companies a img {
+    height: 70px;
+}
+
 .projects {
     width: 100%;
     display: flex;
